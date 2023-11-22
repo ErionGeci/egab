@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Mobileria ILIRI</title>
 </head>
 <body>
     <h1>Mobileria ILIRI Skendraj</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis deserunt, voluptatem, magni nesciunt iusto odio fugit at rem consequuntur cupiditate aliquid ratione nihil quaerat aut facere distinctio sequi nulla maxime!em</p>
-</body>
+    <p class="Home">Home</p>
+    <p class="Menu">Menu</p>
+    <p class="Rrethnesh">Rrethnesh</p>
+   </body>
 </html>
