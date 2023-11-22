@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <title>Mobileria ILIRI</title>
 </head>
+
 <body>
     <h1>Mobileria ILIRI Skendraj</h1>
     <p class="Home">Home</p>
     <p class="Menu">Menu</p>
     <p class="Rrethnesh">Rrethnesh</p>
-   </body>
+ 
+</body>
 </html>
