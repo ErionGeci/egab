@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.headeri {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+   
+ul {
+    width: 30%;
+    display: flex;
+    list-style: none; 
+    justify-content: space-evenly;
+}
+ul li:hover {
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 5px solid yellow;
+}
+.fotohyrje {
+    width: 100x;
+    height: 100px;
+    margin-left: 800px;
+    display: flex;
+    background-size: 100% 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.butoni_bg {
+    width: 25px;
+    height: 25px;
+}
