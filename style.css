@@ -2,6 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
+    height: 60px;
 }
 
 .headeri {
@@ -22,10 +23,10 @@ ul {
 ul li:hover {
     font-weight: bold;
     cursor: pointer;
-    border-bottom: 5px solid yellow;
+    border-bottom: 5px solid red;
 }
 .fotohyrje {
-    width: 100px;
+    width: 150px;
     height: 100px;
     margin-left: 800px;
     display: flex;
@@ -41,4 +42,13 @@ main{
 .butoni_bg {
     width: 25px;
     height: 25px;
+}
+.ngjyra {
+    background-color: yellow;
+}
+.mobileria {
+    margin-top: -5.4%;
+    font-size: large;
+    font-weight: bold;
+    color: black;
 }
