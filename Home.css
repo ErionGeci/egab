@@ -1,3 +1,7 @@
+body html{
+    margin: 0;
+    padding: 0;
+}
 *{
     margin: 0;
 }
@@ -73,4 +77,31 @@ background: linear-gradient(274deg, rgba(131,58,180,1) 0%, rgba(253,29,112,0.644
 }
 .ul a:hover{
     color: black;
+}
+footer {
+    display: flex;
+    align-items: center;
+    background-color: purple;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.icon {
+    display: inline-block;
+    margin: 0 8px;
+    font-size: 24px;
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+.listaF {
+    display: flex;
+    flex-direction: row;
+    float: inline-end;
+}
+.ul1 {
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+    margin-top: 40px;
+    
 }
