@@ -25,7 +25,7 @@ body {
     display: flex;
     flex-direction: row;
     background: rgb(131,58,180);
-background: linear-gradient(274deg, rgba(131,58,180,1) 0%, rgba(253,29,112,0.6446779395351891) 100%); 
+    background: linear-gradient(274deg, rgba(131,58,180,1) 0%, rgba(253,29,112,0.6446779395351891) 100%); 
 }
 .mobileria{
     height: 100px;
