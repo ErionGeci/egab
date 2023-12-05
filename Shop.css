@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+}
+.kategoria {
+    display: flex;
+    justify-content: center;
+    font-size: 120px;
+    align-items: center; 
+    height: 50vh;
+    flex-wrap: wrap;
+}
+.rr1,
+.rr2,
+.rr3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+.foto1,
+.foto2,
+.foto3,
+.foto4,
+.foto5,
+.foto6,
+.foto7,
+.foto8,
+.foto9 {
+    width: 1000px;
+    height: 1000px;
+    margin: 100px;
+    position: relative;
+    overflow: hidden;
+}
+.foto1 img,
+.foto2 img,
+.foto3 img,
+.foto4 img,
+.foto5 img,
+.foto6 img,
+.foto7 img,
+.foto8 img,
+.foto9 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px; 
+    transition: transform 0.3s ease;
+}
+.foto1:hover img,
+.foto2:hover img,
+.foto3:hover img,
+.foto4:hover img,
+.foto5:hover img,
+.foto6:hover img,
+.foto7:hover img,
+.foto8:hover img,
+.foto9:hover img {
+    transform: scale(1.1); 
+}
+
+
