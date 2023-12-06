@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: lightgray;
 }
 *{
     margin: 0;
@@ -8,10 +9,11 @@ body{
 .kategoria {
     display: flex;
     justify-content: center;
-    font-size: 120px;
+    font-size: 40px;
     align-items: center; 
-    height: 50vh;
+    height: 30vh;
     flex-wrap: wrap;
+    background-color: darkgray;
 }
 .rr1,
 .rr2,
@@ -30,11 +32,14 @@ body{
 .foto7,
 .foto8,
 .foto9 {
-    width: 1000px;
-    height: 1000px;
-    margin: 100px;
+    width: 500px;
+    height: 500px;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
 }
 .foto1 img,
 .foto2 img,
@@ -62,5 +67,4 @@ body{
 .foto9:hover img {
     transform: scale(1.1); 
 }
-
 

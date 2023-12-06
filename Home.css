@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 0;
@@ -27,12 +26,8 @@ body {
     display: flex;
     flex-direction: row;
     background: rgb(131,58,180);
-<<<<<<< HEAD
-background: linear-gradient(274deg, rgba(131,58,180,1) 0%, rgba(253,29,112,0.6446779395351891) 100%); 
-width: 100vw;
-=======
     background: linear-gradient(274deg, rgba(131,58,180,1) 0%, rgba(253,29,112,0.6446779395351891) 100%); 
->>>>>>> 444004988cdcdeb014b880f242b5ff95908ce3ab
+    width: 100vw;
 }
 .mobileria{
     height: 100px;
@@ -92,7 +87,7 @@ footer {
     background-color: darkcyan;
     padding: 20px 0;
 }
-.footer-container {
+.footer-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,11 +101,11 @@ footer {
     transition: transform 0.3s ease-in-out;
 
 }
-.icon img {
+.icon img{
     width: 50px;
     height: auto;
 }
-.icon img:hover {
+.icon img:hover{
     transform: scale(1.2);
 }
 .ul1 {
@@ -120,15 +115,15 @@ footer {
    display: flex;
     
 }
-.ul1 li {
+.ul1 li{
     margin-right: 40px;
 }
-.ul1 a {
+.ul1 a{
     text-decoration: 0;
     color: black;
     font-size: 18px;
 }
-.ul1 a:hover {
+.ul1 a:hover{
     color: aqua;
 }
 .listaF {
@@ -161,7 +156,6 @@ footer {
     }
 
     footer {
-        color: ;
         background-color: darkcyan;
         padding: 20px 0;
     }
@@ -189,6 +183,7 @@ footer {
 }
    
     }
+
 
     @media(max-width: 400px){
         .lista {
