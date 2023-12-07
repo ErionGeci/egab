@@ -77,14 +77,14 @@ body {
     font-size: 20px;
 }
 .ul a:hover{
-    color: black;
+    color: black; 
 }
 body {
     margin: 0;
     padding: 0;
 }
 footer {
-    background-color: darkcyan;
+    background-color:darkcyan;
     padding: 20px 0;
 }
 .footer-container{
@@ -129,6 +129,8 @@ footer {
 .listaF {
     color: aquamarine;
 }
+
+
 @media(max-width: 1400px){
 .main {
     flex-direction: column;
@@ -189,7 +191,6 @@ footer {
         .lista {
             display: flex;
             flex-wrap: wrap;
-            /* border: 1px solid red; */
             flex-direction: column;
             max-width: 100%;
         }
@@ -197,3 +198,10 @@ footer {
         flex-wrap: wrap;
       }
         }
+
+    @media(max-width: 486.64px){
+        .ul1{
+            flex-wrap: wrap;
+        }
+    }
+ 

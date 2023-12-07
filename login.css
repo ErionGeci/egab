@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background {
+   width: 100%;
+   height: 100vh;
+   background-image: url(bg.jpg);
+   background-size: cover;
+   background-position: center;
+   position: relative;
+}
+.form-box {
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+.form-box h1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #3c00a0;
+    position: relative;
+}
+.form-box h1::after {
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.input-field {
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+.input-field i {
+    margin-left: 15px;
+    color: #999;
+}
+form p {
+    text-align: left;
+    font-size: 13px;
+}
+form p a {
+    text-decoration: underline;
+    color: #3c00a0;
+}
+.btn-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-field button {
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+.input-group {
+    height: 280px;
+}
+.btn-field button.disable {
+    background: #eaeaea;
+    color: #555;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+}
+.ul{
+    display: flex;
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+.ul li{
+    padding-left: 40px;
+}
+.ul a{
+    text-decoration-line: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.ul a:hover{
+    color: black;
+}
+.mobileria{
+    height: 100px;
+    width: 180px;
+}
+footer {
+    background-color: darkgray;
+    padding: 20px 0;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    transition: transform 0.3s ease-in-out;
+
+}
+.icon img{
+    width: 50px;
+    height: auto;
+}
+.icon img:hover{
+    transform: scale(1.2);
+}
+.ul1 {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+    
+}
+.ul1 li{
+    margin-right: 40px;
+}
+.ul1 a{
+    text-decoration: 0;
+    color: black;
+    font-size: 18px;
+}
+.ul1 a:hover{
+    color: white;
+}
