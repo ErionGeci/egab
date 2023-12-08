@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: darkorange;
+    width: 100vw;
 }
 .ul{
     display: flex;
@@ -86,6 +87,7 @@ body {
 footer {
     background-color:darkcyan;
     padding: 20px 0;
+    width: 100vw;
 }
 .footer-container{
     display: flex;
