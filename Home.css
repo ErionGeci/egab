@@ -101,11 +101,12 @@ footer {
     align-items: center;
     margin: 4px;
     transition: transform 0.3s ease-in-out;
-
 }
 .icon img{
-    width: 50px;
+    width: 45px;
     height: auto;
+    object-fit: cover;
+    padding: 5px;
 }
 .icon img:hover{
     transform: scale(1.2);

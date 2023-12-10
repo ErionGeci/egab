@@ -171,8 +171,47 @@ input {
     box-sizing: border-box;
     margin-top: 7px;
     margin-bottom: 10px;
+    display: flex;
+    float: inline-end;
   }
   input[type=submit] {
     background-color: #3c00a0;
     color: white
   }
+  .option_field {
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .form_container a {
+    color: #7d2ae8;
+    font-size: 12px;
+  }
+  .form_container a:hover {
+    text-decoration: underline;
+  }
+  .checkbox {
+    display: flex;
+    column-gap: 10px;
+    white-space: nowrap;
+  }
+  .checkbox input {
+    accent-color: #7d2ae8;
+  }
+  .checkbox label {
+    font-size: 15px;
+    cursor: pointer;
+    user-select: none;
+    color: #0b0217;
+  }
+  span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    width: 20px;
+    height: auto;
+    margin: 5px;
+  }
+ 
