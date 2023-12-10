@@ -29,7 +29,9 @@ function validateForm(){
     }
 
     if(!errorFlag){
-        success.innerText = "Success!";
+        success.innerText = "Succesfully Dilevered!";
+        alert ("Mesazhi u dergua me sukses!")
+        
     }
 }
 
