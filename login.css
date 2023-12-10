@@ -96,7 +96,7 @@ form p a {
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: darkgray;
+    background-color: darkorange;
 }
 .ul{
     display: flex;
@@ -122,7 +122,7 @@ form p a {
     width: 180px;
 }
 footer {
-    background-color: darkgray;
+    background-color: darkcyan;
     padding: 20px 0;
 }
 .footer-container{
@@ -164,8 +164,15 @@ footer {
 .ul1 a:hover{
     color: white;
 }
-.submit {
-    background: #3c00a0;
-    margin: 5px 0;
-    border-radius: 3px;
-}
+input {
+    padding: 10px;
+    border-radius: 4px;
+    width: 10vw;
+    box-sizing: border-box;
+    margin-top: 7px;
+    margin-bottom: 10px;
+  }
+  input[type=submit] {
+    background-color: #3c00a0;
+    color: white
+  }

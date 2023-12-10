@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: lightgray;
+    background-color: rgb(131,58,180);
+    background: linear-gradient(274deg, rgba(131,58,180,1) 0%, rgba(253,29,112,0.6446779395351891) 100%);
 }
 *{
     margin: 0;
@@ -13,7 +14,8 @@ body{
     align-items: center; 
     height: 20vh;
     flex-wrap: wrap;
-    background-color: darkgray;
+    background-color: rgb(131,58,180);
+    background: linear-gradient(274deg, rgba(131,58,180,1) 0%, rgba(253,29,112,0.6446779395351891) 100%);
 }
 .rr1,
 .rr2,
@@ -70,7 +72,7 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: gray;
+    background-color: darkorange;
 }
 .ul{
     display: flex;
@@ -96,7 +98,7 @@ body{
     width: 180px;
 }
 footer {
-    background-color: gray;
+    background-color:darkcyan;
     padding: 20px 0;
 }
 .footer-container{
