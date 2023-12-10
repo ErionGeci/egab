@@ -2,12 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ContactUs</title>
+    <title>Contact Us</title>   
+    <link rel="stylesheet" href="contactus.css">
 </head>
 <body>
-    
+    <div class="header">
+        <div class="logo"><a href="#"><img src="Logo.png" alt="Mobileria Logo" class="mobileria"></a></div>
+         <div class="lista">
+             <ul class="ul">
+                 <li><a href="Home.html">Home</a></li>
+                 <li><a href="Shop.html">Shop</a></li>
+                 <li><a href="">Sale</a></li>
+                 <li><a href="">Pages</a></li>
+                 <li><a href="">Blog</a></li>
+                 <li><a href="contactus.html">Contact Us</a></li>
+                 <li><a href="">Features</a></li>
+                 <li><a href="login.html">Sign Up</a></li>
+             </ul>
+         </div>
+     </div>
+     <div class="background">
+    <div id="overlay">
+        <form onsubmit="event.preventDefault(); validateForm()">
+            <h1>Contact Us</h1>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your name">
+            <small class="error"></small>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Your email">
+            <small class="error"></small>
+
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Your message" rows="6"> </textarea>
+            <small class="error"></small> 
+
+            <div class="center">
+                <input type="submit" value="Send Message">
+                <p id="success"></p>
+            </div>
+
+        </form> 
+
+            
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div><a href="#"><img src="Logo.png" alt="Mobileria Logo" class="mobileria"></a></div>
+            <div class="listaF">
+                <ul class="ul1">
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Affiliates</a></li>
+                </ul>
+            </div>
+            <div class="icon">
+                <div><a href="https://www.facebook.com/mobileriailiri1989"><img src="facebook1.png" alt="facebook" class="icon"></a></div>
+                <div><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fmobileria.iliri_%3Figshid%3DOGQ5ZDc2ODk2ZA%253D%253D%26fbclid%3DIwAR0wi7X2P2Ew_wwiKQw-BIxohst4DgDmc2tbzX8VM9wI2jC-XW-OyqFtRf0&h=AT2Qg0E4VqyadfovhGYyk9qkUA-4oxYg97t3fnUVzBCAyz2lhe-HBat9CSZ6Zt5TgKo7Z8BQl5jQvDyA8rb00ANdUsxqpuNHI-KGaMtl1VNFJQyY0Vc__F3Nl7-d4nb1ptATZA"><img src="instagram2.png" alt="instagram" class="icon"></a></div>
+                <div><a href="+38344529727"><img src="viber3.png" alt="viber" class="icon"></a></div>
+                <div><a href="+38344529727"><img src="whatsapp3.png" alt="whatsapp" class="icon"></a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="contactus.js"></script>
     
 </body>
 </html>
