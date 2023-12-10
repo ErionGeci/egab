@@ -32,6 +32,10 @@
                     <i class="fa-solid fa-user"></i>
                     <input type="text" placeholder="Name">
                 </div>
+                <div class="input-field" id="birthdayField">
+                    <i class="fa-solid fa-cake-candles"></i>
+                    <input type="date" placeholder="Birthday">
+                </div>
                 <div class="input-field">
                     <i class="fa-solid fa-envelope"></i>
                     <input type="email" placeholder="Email">
@@ -40,7 +44,10 @@
                     <i class="fa-solid fa-lock"></i>
                     <input type="password" placeholder="Password">
                 </div>
-                <p>Forgot password <a href="#">Click Here!</a></p>
+                <div class="submit">
+                    <input type="submit" value="submit">
+                </div>
+                <p class="forget">Forgot password <a href="#">Click Here!</a></p>
             </div>
             <div class="btn-field">
                 <button type="button" id="signupBtn">Sign up</button>
@@ -75,10 +82,12 @@
     let signupBtn = document.getElementById("signupBtn");
     let signinBtn = document.getElementById("signinBtn");
     let nameField = document.getElementById("nameField");
+    let birthdayField = document.getElementById("birthdayField");
     let title = document.getElementById("title");
 
     signinBtn.onclick = function(){
         nameField.style.maxHeight = "0";
+        birthdayField.style.maxHeight = "0";
         title.innerHTML = "Sign In";
         signupBtn.classList.add("disable");
         signinBtn.classList.remove("disable");
@@ -86,9 +95,11 @@
 
     signupBtn.onclick = function(){
         nameField.style.maxHeight = "60px";
+        birthdayField.style.maxHeight = "60px";
         title.innerHTML = "Sign Up";
         signupBtn.classList.remove("disable");
         signinBtn.classList.add("disable");
+        
     }
 
    </script>
