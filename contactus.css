@@ -41,7 +41,7 @@ h1{
 
 label{
     display: block;
-    margin: 20px 0; 
+    margin: 20px 0;
 }
 
 input, textarea{
@@ -50,7 +50,7 @@ input, textarea{
     box-sizing: border-box;
     outline: none;
     resize: none;
-    border: none;
+    border: 0;
     border-bottom: 1px solid #d3d3d3;
 }
 
