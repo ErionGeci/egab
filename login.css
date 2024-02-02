@@ -219,4 +219,126 @@ input {
     height: auto;
     margin: 5px;
   }
- 
+  @media(max-width: 1400px){
+    .main {
+        flex-direction: column;
+    }
+    .main h1 {
+        font-size: 25px;
+    }
+    .main p{
+        font-size: 20px;
+    }
+    .divifotos {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+    }
+    
+    
+    
+    @media(max-width: 700px){
+       
+        .divifotos img {
+            width: 300px;
+            height: 300px;
+        }
+    
+        footer {
+            background-color: darkcyan;
+            padding: 20px 0;
+        }
+        .footer-container{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        }
+    
+    
+    
+        
+    @media(max-width: 865px){
+        .header{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    .ul li{
+        float: none;
+        padding-left: 0;
+    }
+       
+        }
+    
+    
+        @media(max-width: 400px){
+            .lista {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                max-width: 100%;
+            }
+          .ul1 {
+            flex-wrap: wrap;
+          }
+            }
+    
+        @media(max-width: 486.64px){
+            .ul1{
+                flex-wrap: wrap;
+            }
+        }
+    
+ @media (max-width: 425px) {
+    .background{
+        height: 100vh;
+        background-position: center;
+        background-size: ;
+    }
+    
+    }
+    @media (max-width: 2560px) {
+        .form-box{
+            width: 90%;
+            max-width: 450px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background: white;
+            padding: 40px 50px 60px;
+            text-align: center;
+
+        }
+        
+    }
+    @media only screen and (max-width: 780px) {
+        div.auto-style16 {
+          height: 5px;
+          padding-top: 30px;
+        }
+      }
+      
+      @media only screen and (max-width: 375px) {
+        div.auto-style16 {
+          height: 55px;
+          padding-top: 0px;
+        }
+      }
+      
+      @media (max-width: 320px) {
+        .form-box {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        .header {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+      }

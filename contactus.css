@@ -4,9 +4,6 @@
     box-sizing: bor;
 }
 
-body{
-    
-}
 .background {
     width: 100%;
     height: 100vh;
@@ -166,4 +163,12 @@ footer {
 }
 .ul1 a:hover{
     color: white;
+}
+@media (max-width:320px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
 }

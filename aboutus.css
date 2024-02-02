@@ -1,0 +1,110 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #f4f4f4;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out;
+}
+
+header:hover {
+	transform: translateY(-5px);
+}
+
+header h1 {
+	margin: 0;
+	font-size: 32px;
+	color: #333;
+}
+
+#about-content {
+	background-color: #fff;
+	padding: 20px;
+	margin: 20px; 
+}
+#mission-statement {
+    background-color: #fff;
+	padding: 20px;
+	margin: 20px; 
+}
+.c {
+    margin: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkorange;
+}
+.ul{
+    display: flex;
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+.ul li{
+    padding-left: 40px;
+}
+.ul a{
+    text-decoration-line: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.ul a:hover{
+    color: black;
+}
+.mobileria{
+    height: 100px;
+    width: 180px;
+}
+footer {
+    background-color: darkcyan;
+    padding: 20px 0;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    transition: transform 0.3s ease-in-out;
+
+}
+.icon img{
+    width: 50px;
+    height: auto;
+}
+.icon img:hover{
+    transform: scale(1.2);
+}
+.ul1 {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+    
+}
+.ul1 li{
+    margin-right: 40px;
+}
+.ul1 a{
+    text-decoration: 0;
+    color: black;
+    font-size: 18px;
+}
+.ul1 a:hover{
+    color: white;
+}
+    
